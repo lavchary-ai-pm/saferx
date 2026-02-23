@@ -33,10 +33,11 @@ app = FastAPI(
     version="0.1.0",
 )
 
-# CORS configuration for local development
+# CORS configuration
 cors_origins = [
     "http://localhost:5173",
     "http://localhost:3000",
+    "https://saferx-ten.vercel.app",
 ]
 if os.getenv("FRONTEND_URL"):
     cors_origins.append(os.getenv("FRONTEND_URL"))
