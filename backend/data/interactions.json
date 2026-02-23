@@ -1,0 +1,272 @@
+[
+  {
+    "id": "INT-001",
+    "drug_a": "Warfarin",
+    "drug_b": "Ibuprofen",
+    "severity": "critical",
+    "description": "Significantly increased risk of serious gastrointestinal bleeding and hemorrhage. NSAIDs inhibit platelet function and can cause GI ulceration, compounding warfarin's anticoagulant effect.",
+    "mechanism": "NSAIDs inhibit platelet aggregation via COX-1 inhibition and displace warfarin from plasma protein binding sites, increasing free warfarin levels.",
+    "recommendation": "Contraindicated. Use acetaminophen for pain management instead. If NSAID is unavoidable, use lowest dose for shortest duration with close INR monitoring."
+  },
+  {
+    "id": "INT-002",
+    "drug_a": "Warfarin",
+    "drug_b": "Naproxen",
+    "severity": "critical",
+    "description": "Significantly increased risk of serious gastrointestinal bleeding. Same mechanism as all NSAID-warfarin interactions.",
+    "mechanism": "COX-1 inhibition reduces platelet aggregation. Protein binding displacement increases free warfarin.",
+    "recommendation": "Contraindicated. Substitute with acetaminophen. If unavoidable, monitor INR closely."
+  },
+  {
+    "id": "INT-003",
+    "drug_a": "Sertraline",
+    "drug_b": "Phenelzine",
+    "severity": "critical",
+    "description": "Risk of serotonin syndrome, a potentially fatal condition causing hyperthermia, seizures, muscle rigidity, and autonomic instability.",
+    "mechanism": "SSRIs prevent serotonin reuptake while MAOIs prevent serotonin breakdown, causing dangerous serotonin accumulation in the synaptic cleft.",
+    "recommendation": "Absolutely contraindicated. Minimum 14-day washout period between MAOI and SSRI. Minimum 5-week washout when switching from fluoxetine to MAOI."
+  },
+  {
+    "id": "INT-004",
+    "drug_a": "Simvastatin",
+    "drug_b": "Clarithromycin",
+    "severity": "critical",
+    "description": "Risk of rhabdomyolysis (severe muscle breakdown) which can lead to acute kidney failure and death. Clarithromycin increases simvastatin blood levels 5-10 fold.",
+    "mechanism": "Clarithromycin is a potent CYP3A4 inhibitor. Simvastatin is extensively metabolized by CYP3A4. Inhibition causes massive statin accumulation.",
+    "recommendation": "Contraindicated. Suspend simvastatin during clarithromycin course. Consider azithromycin as alternative antibiotic (minimal CYP3A4 interaction)."
+  },
+  {
+    "id": "INT-005",
+    "drug_a": "Methotrexate",
+    "drug_b": "Ibuprofen",
+    "severity": "critical",
+    "description": "Risk of methotrexate toxicity including severe bone marrow suppression, renal failure, and potentially fatal pancytopenia.",
+    "mechanism": "NSAIDs reduce renal blood flow and compete for tubular secretion, decreasing methotrexate clearance by 30-50%.",
+    "recommendation": "Avoid combination. If NSAID required, use lowest dose with increased methotrexate monitoring (CBC, renal function)."
+  },
+  {
+    "id": "INT-006",
+    "drug_a": "Digoxin",
+    "drug_b": "Verapamil",
+    "severity": "severe",
+    "description": "Risk of digoxin toxicity causing life-threatening cardiac arrhythmias, nausea, visual disturbances. Verapamil increases digoxin levels by 50-75%.",
+    "mechanism": "Verapamil inhibits P-glycoprotein-mediated renal and intestinal clearance of digoxin, and both drugs slow AV conduction.",
+    "recommendation": "Reduce digoxin dose by 50% when adding verapamil. Monitor digoxin levels closely. Watch for signs of toxicity."
+  },
+  {
+    "id": "INT-007",
+    "drug_a": "Sildenafil",
+    "drug_b": "Nitroglycerin",
+    "severity": "severe",
+    "description": "Risk of severe, potentially fatal hypotension and cardiovascular collapse.",
+    "mechanism": "Both drugs cause vasodilation via the nitric oxide-cGMP pathway. Sildenafil inhibits PDE5 which breaks down cGMP, amplifying the hypotensive effect of nitrates.",
+    "recommendation": "Absolutely contraindicated. Do not use within 24 hours of sildenafil (48 hours for tadalafil)."
+  },
+  {
+    "id": "INT-008",
+    "drug_a": "Lithium",
+    "drug_b": "Hydrochlorothiazide",
+    "severity": "severe",
+    "description": "Risk of lithium toxicity causing tremor, confusion, seizures, and renal damage. Thiazide diuretics can increase lithium levels by 25-40%.",
+    "mechanism": "Thiazides increase sodium excretion, causing compensatory lithium reabsorption in the proximal tubule.",
+    "recommendation": "Monitor lithium levels closely if combination required. May need to reduce lithium dose by 25-50%. Check levels within 5 days of starting thiazide."
+  },
+  {
+    "id": "INT-009",
+    "drug_a": "Warfarin",
+    "drug_b": "Ciprofloxacin",
+    "severity": "severe",
+    "description": "Significantly enhanced anticoagulant effect with increased bleeding risk. INR may increase 2-4 fold.",
+    "mechanism": "Fluoroquinolones inhibit CYP1A2 and CYP3A4 metabolism of warfarin. They also reduce vitamin K-producing gut flora.",
+    "recommendation": "Monitor INR closely if combination is necessary. May need to reduce warfarin dose by 25-50% during antibiotic course."
+  },
+  {
+    "id": "INT-010",
+    "drug_a": "Theophylline",
+    "drug_b": "Ciprofloxacin",
+    "severity": "severe",
+    "description": "Risk of theophylline toxicity causing seizures, cardiac arrhythmias, and death. Theophylline has a very narrow therapeutic window.",
+    "mechanism": "Ciprofloxacin inhibits CYP1A2, the primary metabolic pathway for theophylline, increasing levels by 15-30%.",
+    "recommendation": "Reduce theophylline dose by 30-50% or choose alternative antibiotic. Monitor theophylline levels."
+  },
+  {
+    "id": "INT-011",
+    "drug_a": "Clopidogrel",
+    "drug_b": "Omeprazole",
+    "severity": "severe",
+    "description": "Reduced antiplatelet effect of clopidogrel, increasing risk of cardiovascular events including stent thrombosis.",
+    "mechanism": "Omeprazole inhibits CYP2C19, the enzyme that converts clopidogrel prodrug to its active metabolite. Reduces active metabolite by approximately 45%.",
+    "recommendation": "Use pantoprazole instead (minimal CYP2C19 interaction). If omeprazole required, separate dosing by 12 hours."
+  },
+  {
+    "id": "INT-012",
+    "drug_a": "Phenytoin",
+    "drug_b": "Fluoxetine",
+    "severity": "severe",
+    "description": "Risk of phenytoin toxicity causing ataxia, nystagmus, confusion, and seizure worsening. Phenytoin has a narrow therapeutic window.",
+    "mechanism": "Fluoxetine inhibits CYP2C9, the primary metabolic pathway for phenytoin, increasing phenytoin levels.",
+    "recommendation": "Monitor phenytoin levels when starting or stopping fluoxetine. May need dose reduction. Consider sertraline as alternative SSRI."
+  },
+  {
+    "id": "INT-013",
+    "drug_a": "Rifampicin",
+    "drug_b": "Warfarin",
+    "severity": "severe",
+    "description": "Dramatically reduced anticoagulant effect, risking thromboembolic events. Rifampicin can reduce warfarin efficacy by 50-70%.",
+    "mechanism": "Rifampicin is one of the most potent CYP enzyme inducers known. It upregulates CYP2C9, CYP3A4, and CYP1A2, massively accelerating warfarin metabolism.",
+    "recommendation": "Avoid if possible. If required, increase warfarin dose significantly with frequent INR monitoring. Readjust warfarin when rifampicin is stopped."
+  },
+  {
+    "id": "INT-014",
+    "drug_a": "Lisinopril",
+    "drug_b": "Ibuprofen",
+    "severity": "moderate",
+    "description": "NSAIDs reduce the antihypertensive effect of ACE inhibitors and increase risk of acute kidney injury, especially in dehydrated patients.",
+    "mechanism": "NSAIDs inhibit prostaglandin synthesis in the kidney, reducing renal blood flow. This opposes the vasodilatory effect of ACE inhibitors on the efferent arteriole.",
+    "recommendation": "Monitor blood pressure and renal function. Use lowest NSAID dose for shortest duration. Ensure adequate hydration."
+  },
+  {
+    "id": "INT-015",
+    "drug_a": "Sertraline",
+    "drug_b": "Ibuprofen",
+    "severity": "moderate",
+    "description": "Increased risk of gastrointestinal bleeding. Risk is approximately 3-fold higher than either drug alone.",
+    "mechanism": "SSRIs deplete platelet serotonin stores, impairing platelet aggregation. NSAIDs independently cause GI mucosal damage and inhibit platelet COX-1.",
+    "recommendation": "Consider gastroprotective agent (PPI) if combination is needed. Monitor for signs of GI bleeding. Use acetaminophen when possible."
+  },
+  {
+    "id": "INT-016",
+    "drug_a": "Metoprolol",
+    "drug_b": "Verapamil",
+    "severity": "moderate",
+    "description": "Risk of excessive bradycardia, heart block, and hypotension. Both agents depress cardiac conduction.",
+    "mechanism": "Metoprolol blocks beta-1 receptors slowing heart rate. Verapamil blocks L-type calcium channels in the SA and AV nodes. Combined effect on cardiac conduction is additive.",
+    "recommendation": "Avoid combination if possible. If required, use with extreme caution, monitor heart rate and ECG. Start with low doses."
+  },
+  {
+    "id": "INT-017",
+    "drug_a": "Fluoxetine",
+    "drug_b": "Tramadol",
+    "severity": "moderate",
+    "description": "Risk of serotonin syndrome and lowered seizure threshold. Also reduces tramadol analgesic efficacy.",
+    "mechanism": "Both drugs increase serotonergic activity. Fluoxetine also inhibits CYP2D6, reducing conversion of tramadol to its active analgesic metabolite.",
+    "recommendation": "Use alternative analgesic if possible. If combination required, use lowest doses and monitor for serotonin syndrome symptoms."
+  },
+  {
+    "id": "INT-018",
+    "drug_a": "Atorvastatin",
+    "drug_b": "Gemfibrozil",
+    "severity": "moderate",
+    "description": "Increased risk of myopathy and rhabdomyolysis, though lower risk than with simvastatin.",
+    "mechanism": "Gemfibrozil inhibits OATP1B1 transporter and glucuronidation of statins, increasing statin exposure 2-3 fold.",
+    "recommendation": "Use fenofibrate instead of gemfibrozil (lower interaction risk). If combination required, use lowest statin dose and monitor for muscle symptoms."
+  },
+  {
+    "id": "INT-019",
+    "drug_a": "Amoxicillin",
+    "drug_b": "Warfarin",
+    "severity": "moderate",
+    "description": "Modestly enhanced anticoagulant effect. Less severe than fluoroquinolone-warfarin interaction but still clinically significant.",
+    "mechanism": "Amoxicillin alters gut flora that produce vitamin K, reducing vitamin K availability and enhancing warfarin effect.",
+    "recommendation": "Monitor INR during and after antibiotic course. Adjust warfarin dose if INR rises above therapeutic range."
+  },
+  {
+    "id": "INT-020",
+    "drug_a": "Citalopram",
+    "drug_b": "Amiodarone",
+    "severity": "moderate",
+    "description": "Risk of QT interval prolongation and potentially fatal torsades de pointes arrhythmia.",
+    "mechanism": "Both drugs independently prolong the QT interval by blocking hERG potassium channels. Combined effect is additive.",
+    "recommendation": "Avoid combination if possible. If required, obtain baseline ECG, monitor QT interval regularly. Keep QTc under 500ms."
+  },
+  {
+    "id": "INT-021",
+    "drug_a": "Lisinopril",
+    "drug_b": "Spironolactone",
+    "severity": "moderate",
+    "description": "Risk of hyperkalemia which can cause fatal cardiac arrhythmias. Both drugs increase potassium retention.",
+    "mechanism": "ACE inhibitors reduce aldosterone secretion. Spironolactone blocks aldosterone receptors. Both reduce potassium excretion independently.",
+    "recommendation": "Monitor serum potassium within 1 week of starting combination and regularly thereafter. Avoid potassium supplements."
+  },
+  {
+    "id": "INT-022",
+    "drug_a": "Prednisone",
+    "drug_b": "Ibuprofen",
+    "severity": "moderate",
+    "description": "Significantly increased risk of GI ulceration and bleeding. Risk is higher than either drug alone.",
+    "mechanism": "Corticosteroids impair GI mucosal defense mechanisms. NSAIDs inhibit protective prostaglandin synthesis. Combined mucosal assault.",
+    "recommendation": "Add gastroprotective agent (PPI) if combination is required. Use lowest doses for shortest duration."
+  },
+  {
+    "id": "INT-023",
+    "drug_a": "Lisinopril",
+    "drug_b": "Potassium chloride",
+    "severity": "moderate",
+    "description": "Risk of hyperkalemia, especially in patients with renal impairment or diabetes.",
+    "mechanism": "ACE inhibitors reduce aldosterone-mediated potassium excretion. Adding exogenous potassium further increases levels.",
+    "recommendation": "Monitor serum potassium closely. Generally avoid potassium supplements unless documented hypokalemia. Check renal function."
+  },
+  {
+    "id": "INT-024",
+    "drug_a": "Acetaminophen",
+    "drug_b": "Warfarin",
+    "severity": "minor",
+    "description": "Regular high-dose acetaminophen (>2g/day for multiple days) may modestly increase INR. Occasional use is generally safe.",
+    "mechanism": "Acetaminophen's metabolite (NAPQI) may inhibit vitamin K-dependent clotting factor synthesis at high doses.",
+    "recommendation": "Safe for occasional use at standard doses. If using regularly at high doses, monitor INR. Preferred over NSAIDs for warfarin patients."
+  },
+  {
+    "id": "INT-025",
+    "drug_a": "Levothyroxine",
+    "drug_b": "Calcium carbonate",
+    "severity": "minor",
+    "description": "Calcium can reduce levothyroxine absorption by 20-25%, potentially causing hypothyroid symptoms.",
+    "mechanism": "Calcium forms insoluble complexes with levothyroxine in the GI tract, reducing bioavailability.",
+    "recommendation": "Separate administration by at least 4 hours. Take levothyroxine on empty stomach in the morning, calcium later in the day."
+  },
+  {
+    "id": "INT-026",
+    "drug_a": "Levothyroxine",
+    "drug_b": "Omeprazole",
+    "severity": "minor",
+    "description": "PPIs may reduce levothyroxine absorption by increasing gastric pH. Effect is modest in most patients.",
+    "mechanism": "Levothyroxine requires acidic gastric environment for optimal dissolution and absorption. PPIs raise gastric pH.",
+    "recommendation": "Monitor TSH levels when starting or stopping PPI therapy. May need levothyroxine dose adjustment."
+  },
+  {
+    "id": "INT-027",
+    "drug_a": "Metformin",
+    "drug_b": "Alcohol",
+    "severity": "minor",
+    "description": "Moderate alcohol consumption increases risk of lactic acidosis in metformin users, though risk is low with occasional use.",
+    "mechanism": "Alcohol inhibits hepatic gluconeogenesis and increases lactate production, compounding metformin's effect on lactate metabolism.",
+    "recommendation": "Advise limiting alcohol intake. Avoid binge drinking. No need to discontinue metformin for occasional moderate alcohol use."
+  },
+  {
+    "id": "INT-028",
+    "drug_a": "Cetirizine",
+    "drug_b": "Alcohol",
+    "severity": "minor",
+    "description": "Enhanced CNS depression causing increased drowsiness and impaired psychomotor function.",
+    "mechanism": "Both cetirizine and alcohol cause CNS depression. While cetirizine is less sedating than first-generation antihistamines, additive effect with alcohol is still present.",
+    "recommendation": "Advise caution with alcohol. Avoid driving or operating machinery if combining."
+  },
+  {
+    "id": "INT-029",
+    "drug_a": "Atorvastatin",
+    "drug_b": "Grapefruit juice",
+    "severity": "minor",
+    "description": "Grapefruit can modestly increase atorvastatin levels. Effect is less significant than with simvastatin or lovastatin.",
+    "mechanism": "Grapefruit inhibits intestinal CYP3A4, reducing first-pass metabolism of atorvastatin. Effect is moderate since atorvastatin has low CYP3A4 dependence.",
+    "recommendation": "Small amounts of grapefruit are generally acceptable. Avoid large quantities (>1 quart/day). Monitor for muscle pain."
+  },
+  {
+    "id": "INT-030",
+    "drug_a": "Sertraline",
+    "drug_b": "Tramadol",
+    "severity": "moderate",
+    "description": "Risk of serotonin syndrome and lowered seizure threshold. Similar to fluoxetine-tramadol interaction.",
+    "mechanism": "Sertraline inhibits serotonin reuptake. Tramadol also inhibits serotonin reuptake and has weak opioid activity. Combined serotonergic effect.",
+    "recommendation": "Use alternative analgesic if possible. If required, start with low tramadol dose and monitor for serotonin syndrome symptoms (agitation, tremor, hyperthermia)."
+  }
+]

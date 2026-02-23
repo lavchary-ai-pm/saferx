@@ -1,0 +1,316 @@
+[
+  {
+    "id": "PAT-001",
+    "name": "Margaret Chen",
+    "date_of_birth": "1956-08-14",
+    "weight_kg": 68.2,
+    "allergies": ["Penicillin", "Sulfa drugs"],
+    "medications": [
+      {
+        "id": "MED-001-A",
+        "medication_name": "Warfarin",
+        "dosage": "5mg",
+        "frequency": "Once daily",
+        "prescriber": "Dr. Patel",
+        "start_date": "2023-01-15"
+      },
+      {
+        "id": "MED-001-B",
+        "medication_name": "Lisinopril",
+        "dosage": "10mg",
+        "frequency": "Once daily",
+        "prescriber": "Dr. Patel",
+        "start_date": "2022-06-01"
+      },
+      {
+        "id": "MED-001-C",
+        "medication_name": "Atorvastatin",
+        "dosage": "20mg",
+        "frequency": "Once daily at bedtime",
+        "prescriber": "Dr. Patel",
+        "start_date": "2022-06-01"
+      }
+    ]
+  },
+  {
+    "id": "PAT-002",
+    "name": "Robert Williams",
+    "date_of_birth": "1961-03-22",
+    "weight_kg": 91.5,
+    "allergies": [],
+    "medications": [
+      {
+        "id": "MED-002-A",
+        "medication_name": "Simvastatin",
+        "dosage": "40mg",
+        "frequency": "Once daily at bedtime",
+        "prescriber": "Dr. Nguyen",
+        "start_date": "2021-09-10"
+      },
+      {
+        "id": "MED-002-B",
+        "medication_name": "Metoprolol",
+        "dosage": "50mg",
+        "frequency": "Twice daily",
+        "prescriber": "Dr. Nguyen",
+        "start_date": "2021-09-10"
+      },
+      {
+        "id": "MED-002-C",
+        "medication_name": "Aspirin",
+        "dosage": "81mg",
+        "frequency": "Once daily",
+        "prescriber": "Dr. Nguyen",
+        "start_date": "2021-09-10"
+      }
+    ]
+  },
+  {
+    "id": "PAT-003",
+    "name": "Diana Morales",
+    "date_of_birth": "1970-11-05",
+    "weight_kg": 74.0,
+    "allergies": ["Codeine"],
+    "medications": [
+      {
+        "id": "MED-003-A",
+        "medication_name": "Metformin",
+        "dosage": "1000mg",
+        "frequency": "Twice daily",
+        "prescriber": "Dr. Kim",
+        "start_date": "2020-03-20"
+      },
+      {
+        "id": "MED-003-B",
+        "medication_name": "Lisinopril",
+        "dosage": "20mg",
+        "frequency": "Once daily",
+        "prescriber": "Dr. Kim",
+        "start_date": "2020-03-20"
+      },
+      {
+        "id": "MED-003-C",
+        "medication_name": "Glipizide",
+        "dosage": "5mg",
+        "frequency": "Once daily before breakfast",
+        "prescriber": "Dr. Kim",
+        "start_date": "2022-01-10"
+      }
+    ]
+  },
+  {
+    "id": "PAT-004",
+    "name": "James Okafor",
+    "date_of_birth": "1978-06-30",
+    "weight_kg": 82.0,
+    "allergies": [],
+    "medications": [
+      {
+        "id": "MED-004-A",
+        "medication_name": "Metformin",
+        "dosage": "500mg",
+        "frequency": "Twice daily",
+        "prescriber": "Dr. Singh",
+        "start_date": "2023-05-15"
+      },
+      {
+        "id": "MED-004-B",
+        "medication_name": "Amlodipine",
+        "dosage": "5mg",
+        "frequency": "Once daily",
+        "prescriber": "Dr. Singh",
+        "start_date": "2023-05-15"
+      }
+    ]
+  },
+  {
+    "id": "PAT-005",
+    "name": "Susan Park",
+    "date_of_birth": "1985-02-18",
+    "weight_kg": 59.0,
+    "allergies": ["Latex"],
+    "medications": [
+      {
+        "id": "MED-005-A",
+        "medication_name": "Sertraline",
+        "dosage": "100mg",
+        "frequency": "Once daily",
+        "prescriber": "Dr. Adams",
+        "start_date": "2022-08-01"
+      },
+      {
+        "id": "MED-005-B",
+        "medication_name": "Alprazolam",
+        "dosage": "0.5mg",
+        "frequency": "As needed, max twice daily",
+        "prescriber": "Dr. Adams",
+        "start_date": "2023-02-14"
+      }
+    ]
+  },
+  {
+    "id": "PAT-006",
+    "name": "Thomas Brennan",
+    "date_of_birth": "1980-09-12",
+    "weight_kg": 77.3,
+    "allergies": [],
+    "medications": [
+      {
+        "id": "MED-006-A",
+        "medication_name": "Fluoxetine",
+        "dosage": "20mg",
+        "frequency": "Once daily",
+        "prescriber": "Dr. Martinez",
+        "start_date": "2023-11-01"
+      },
+      {
+        "id": "MED-006-B",
+        "medication_name": "Omeprazole",
+        "dosage": "20mg",
+        "frequency": "Once daily before breakfast",
+        "prescriber": "Dr. Martinez",
+        "start_date": "2024-01-15"
+      }
+    ]
+  },
+  {
+    "id": "PAT-007",
+    "name": "Helen Dubois",
+    "date_of_birth": "1958-12-03",
+    "weight_kg": 65.8,
+    "allergies": ["Aspirin", "NSAIDs"],
+    "medications": [
+      {
+        "id": "MED-007-A",
+        "medication_name": "Tramadol",
+        "dosage": "50mg",
+        "frequency": "Every 6 hours as needed",
+        "prescriber": "Dr. Lee",
+        "start_date": "2024-06-01"
+      },
+      {
+        "id": "MED-007-B",
+        "medication_name": "Gabapentin",
+        "dosage": "300mg",
+        "frequency": "Three times daily",
+        "prescriber": "Dr. Lee",
+        "start_date": "2024-03-15"
+      },
+      {
+        "id": "MED-007-C",
+        "medication_name": "Acetaminophen",
+        "dosage": "500mg",
+        "frequency": "Every 6 hours as needed",
+        "prescriber": "Dr. Lee",
+        "start_date": "2024-03-15"
+      }
+    ]
+  },
+  {
+    "id": "PAT-008",
+    "name": "Harold Foster",
+    "date_of_birth": "1944-04-25",
+    "weight_kg": 78.5,
+    "allergies": ["Metformin"],
+    "medications": [
+      {
+        "id": "MED-008-A",
+        "medication_name": "Warfarin",
+        "dosage": "7.5mg",
+        "frequency": "Once daily",
+        "prescriber": "Dr. Patel",
+        "start_date": "2019-11-20"
+      },
+      {
+        "id": "MED-008-B",
+        "medication_name": "Digoxin",
+        "dosage": "0.125mg",
+        "frequency": "Once daily",
+        "prescriber": "Dr. Patel",
+        "start_date": "2019-11-20"
+      },
+      {
+        "id": "MED-008-C",
+        "medication_name": "Furosemide",
+        "dosage": "40mg",
+        "frequency": "Once daily",
+        "prescriber": "Dr. Patel",
+        "start_date": "2020-02-01"
+      },
+      {
+        "id": "MED-008-D",
+        "medication_name": "Lisinopril",
+        "dosage": "5mg",
+        "frequency": "Once daily",
+        "prescriber": "Dr. Patel",
+        "start_date": "2019-11-20"
+      },
+      {
+        "id": "MED-008-E",
+        "medication_name": "Levothyroxine",
+        "dosage": "75mcg",
+        "frequency": "Once daily on empty stomach",
+        "prescriber": "Dr. Cho",
+        "start_date": "2018-06-10"
+      }
+    ]
+  },
+  {
+    "id": "PAT-009",
+    "name": "Eleanor Vasquez",
+    "date_of_birth": "1948-07-19",
+    "weight_kg": 70.2,
+    "allergies": [],
+    "medications": [
+      {
+        "id": "MED-009-A",
+        "medication_name": "Clopidogrel",
+        "dosage": "75mg",
+        "frequency": "Once daily",
+        "prescriber": "Dr. Nguyen",
+        "start_date": "2023-04-01"
+      },
+      {
+        "id": "MED-009-B",
+        "medication_name": "Atorvastatin",
+        "dosage": "40mg",
+        "frequency": "Once daily at bedtime",
+        "prescriber": "Dr. Nguyen",
+        "start_date": "2023-04-01"
+      },
+      {
+        "id": "MED-009-C",
+        "medication_name": "Metoprolol",
+        "dosage": "25mg",
+        "frequency": "Twice daily",
+        "prescriber": "Dr. Nguyen",
+        "start_date": "2023-04-01"
+      },
+      {
+        "id": "MED-009-D",
+        "medication_name": "Lisinopril",
+        "dosage": "10mg",
+        "frequency": "Once daily",
+        "prescriber": "Dr. Nguyen",
+        "start_date": "2023-04-01"
+      }
+    ]
+  },
+  {
+    "id": "PAT-010",
+    "name": "Kyle Mitchell",
+    "date_of_birth": "1995-10-08",
+    "weight_kg": 75.0,
+    "allergies": [],
+    "medications": [
+      {
+        "id": "MED-010-A",
+        "medication_name": "Cetirizine",
+        "dosage": "10mg",
+        "frequency": "Once daily",
+        "prescriber": "Dr. Adams",
+        "start_date": "2025-01-10"
+      }
+    ]
+  }
+]
